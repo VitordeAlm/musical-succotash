@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+:root {
+    --cor-transicao: rgb(161, 10, 10);
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    background-color: #212121;
+}
+
+header, #h2sobre {
+    color: #fff;
+    cursor: pointer;
+}
+
+#h2sobre {
+    padding: 6px;
+    margin-right: 117px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.tipo-fonte {
+    font-family: helvetica;
+}
+
+h1 {
+    color: #fff;
+    font-size: 25px;
+    padding: 6px;
+    margin-left: 40px;
+}
+
+header, #h2home {
+    color:#fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+#divtxt {
+    height: 95px;
+    width: 220px;
+    background-color: rgb(243, 243, 243);
+    margin: 150px auto;
+    margin-top: 55px;
+    margin-right: 50px;
+}
+
+#h2home {
+    padding: 6px;
+    margin-right: 370px;
+}
+
+article, p {
+    position: absolute;
+    right: 200px;
+    bottom: 100px;
+}
+
+#divmain {
+    width: 600px;
+    height: 250px;
+    border: 2px solid blue;
+    margin: 150px auto;
+}
+
+#h2contato {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 237px;
+    padding: 12;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+#h2contato:hover {
+    transition: 1s;
+    background-color: var(--cor-transicao);
+    border-radius: 15px;
+}
+
+ #divbotao {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: chocolate;
+    margin-right: 357px;
+    padding: 12px;
+    margin-top: 5px;
+}
+
+#divbotao, #h2home {
+    cursor: pointer;
+}
+
+footer, #divfooter {
+    background-color: #212121;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+
+#divfooter {
+    padding: 30px;
+}
+
